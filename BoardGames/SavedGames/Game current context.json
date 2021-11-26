@@ -1,0 +1,493 @@
+{
+  "AdaptedLayout": [
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 0
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 1,
+        "Column": 0
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 1
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 1,
+        "Column": 1
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 2
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 1,
+        "Column": 2
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 1,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 4,
+        "Column": 4
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 5
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 5
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 6
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 6,
+        "Column": 7
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 1,
+        "Column": 7
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 0
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 2
+      }
+    },
+    {
+      "Key": {
+        "Row": 7,
+        "Column": 0
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 2
+      }
+    },
+    {
+      "Key": {
+        "Row": 7,
+        "Column": 7
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 2
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 7
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 2
+      }
+    },
+    {
+      "Key": {
+        "Row": 2,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 5
+      }
+    },
+    {
+      "Key": {
+        "Row": 7,
+        "Column": 5
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 4
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 2
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 4
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 5
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 4
+      }
+    },
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 1
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 3
+      }
+    },
+    {
+      "Key": {
+        "Row": 7,
+        "Column": 6
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 3
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 1
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 3
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 6
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 3
+      }
+    },
+    {
+      "Key": {
+        "Row": 7,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 1
+      }
+    },
+    {
+      "Key": {
+        "Row": 0,
+        "Column": 4
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 1
+      }
+    }
+  ],
+  "AdaptedCoordinate": [
+    {
+      "Row": 6,
+      "Column": 0
+    },
+    {
+      "Row": 1,
+      "Column": 0
+    },
+    {
+      "Row": 6,
+      "Column": 1
+    },
+    {
+      "Row": 1,
+      "Column": 1
+    },
+    {
+      "Row": 6,
+      "Column": 2
+    },
+    {
+      "Row": 1,
+      "Column": 2
+    },
+    {
+      "Row": 6,
+      "Column": 3
+    },
+    {
+      "Row": 1,
+      "Column": 3
+    },
+    {
+      "Row": 4,
+      "Column": 4
+    },
+    {
+      "Row": 6,
+      "Column": 5
+    },
+    {
+      "Row": 3,
+      "Column": 5
+    },
+    {
+      "Row": 3,
+      "Column": 6
+    },
+    {
+      "Row": 6,
+      "Column": 7
+    },
+    {
+      "Row": 1,
+      "Column": 7
+    },
+    {
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Row": 7,
+      "Column": 0
+    },
+    {
+      "Row": 7,
+      "Column": 7
+    },
+    {
+      "Row": 0,
+      "Column": 7
+    },
+    {
+      "Row": 2,
+      "Column": 3
+    },
+    {
+      "Row": 7,
+      "Column": 5
+    },
+    {
+      "Row": 0,
+      "Column": 2
+    },
+    {
+      "Row": 0,
+      "Column": 5
+    },
+    {
+      "Row": 3,
+      "Column": 1
+    },
+    {
+      "Row": 7,
+      "Column": 6
+    },
+    {
+      "Row": 0,
+      "Column": 1
+    },
+    {
+      "Row": 0,
+      "Column": 6
+    },
+    {
+      "Row": 7,
+      "Column": 3
+    },
+    {
+      "Row": 0,
+      "Column": 3
+    },
+    {
+      "Row": 3,
+      "Column": 3
+    },
+    {
+      "Row": 0,
+      "Column": 4
+    }
+  ],
+  "AdaptedMoves": [
+    {
+      "SourceCoordinate": {
+        "Row": 6,
+        "Column": 6
+      },
+      "DestinationCoordinate": {
+        "Row": 4,
+        "Column": 6
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 1,
+        "Column": 5
+      },
+      "DestinationCoordinate": {
+        "Row": 3,
+        "Column": 5
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 4,
+        "Column": 6
+      },
+      "DestinationCoordinate": {
+        "Row": 3,
+        "Column": 5
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 1,
+        "Column": 6
+      },
+      "DestinationCoordinate": {
+        "Row": 3,
+        "Column": 6
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 6,
+        "Column": 4
+      },
+      "DestinationCoordinate": {
+        "Row": 4,
+        "Column": 4
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 1,
+        "Column": 4
+      },
+      "DestinationCoordinate": {
+        "Row": 2,
+        "Column": 3
+      }
+    }
+  ],
+  "AdaptedAPiece": {
+    "Color": 0,
+    "Type": 1
+  },
+  "CurrentColor": 1
+}

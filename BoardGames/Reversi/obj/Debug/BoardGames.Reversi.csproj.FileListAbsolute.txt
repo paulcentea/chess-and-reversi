@@ -1,0 +1,39 @@
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.Reversi.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.API.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.Chess.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Unity.Abstractions.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Unity.Container.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.API.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\BoardGames.Chess.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Unity.Container.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\obj\Debug\BoardGames.Reversi.csproj.AssemblyReference.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\obj\Debug\BoardGames.Reversi.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\obj\Debug\BoardGames.Reversi.csproj.CopyComplete
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\obj\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\Reversi\obj\Debug\BoardGames.Reversi.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.Reversi.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.API.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.Chess.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Unity.Abstractions.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Unity.Container.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.API.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\BoardGames.Chess.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Unity.Container.pdb
+C:\Users\Paul\Desktop\BoardGames\Reversi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\BoardGames\Reversi\obj\Debug\BoardGames.Reversi.csproj.AssemblyReference.cache
+C:\Users\Paul\Desktop\BoardGames\Reversi\obj\Debug\BoardGames.Reversi.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\BoardGames\Reversi\obj\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames\Reversi\obj\Debug\BoardGames.Reversi.pdb

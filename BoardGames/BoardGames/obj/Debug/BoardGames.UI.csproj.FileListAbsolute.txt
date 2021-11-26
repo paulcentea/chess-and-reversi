@@ -1,0 +1,50 @@
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.csproj.AssemblyReference.cache
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.csproj.GenerateResource.cache
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.UI.exe.config
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.UI.exe
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.UI.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.API.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.Chess.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Unity.Abstractions.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Unity.Container.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.API.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.Chess.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\BoardGames.Reversi.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\bin\Debug\Unity.Container.pdb
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.csproj.AssemblyReference.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.GameForm.resources
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.Properties.Resources.resources
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.csproj.GenerateResource.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.exe
+C:\Users\Paul\Desktop\BoardGames - Copy\BoardGames\obj\Debug\BoardGames.UI.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.UI.exe.config
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.UI.exe
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.UI.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.API.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.Chess.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.Reversi.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Unity.Abstractions.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Unity.Container.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.API.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.Chess.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\BoardGames.Reversi.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\bin\Debug\Unity.Container.pdb
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.GameForm.resources
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.Properties.Resources.resources
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.exe
+C:\Users\Paul\Desktop\BoardGames\BoardGames\obj\Debug\BoardGames.UI.pdb

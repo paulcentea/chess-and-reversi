@@ -1,0 +1,155 @@
+{
+  "AdaptedLayout": [
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 4,
+        "Column": 4
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 3,
+        "Column": 4
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 4,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 5,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 0,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 2,
+        "Column": 4
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 2,
+        "Column": 3
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    },
+    {
+      "Key": {
+        "Row": 4,
+        "Column": 2
+      },
+      "Value": {
+        "Color": 1,
+        "Type": 0
+      }
+    }
+  ],
+  "AdaptedCoordinate": [
+    {
+      "Row": 3,
+      "Column": 3
+    },
+    {
+      "Row": 4,
+      "Column": 4
+    },
+    {
+      "Row": 3,
+      "Column": 4
+    },
+    {
+      "Row": 4,
+      "Column": 3
+    },
+    {
+      "Row": 5,
+      "Column": 3
+    },
+    {
+      "Row": 2,
+      "Column": 4
+    },
+    {
+      "Row": 2,
+      "Column": 3
+    },
+    {
+      "Row": 4,
+      "Column": 2
+    }
+  ],
+  "AdaptedMoves": [
+    {
+      "SourceCoordinate": {
+        "Row": 4,
+        "Column": 4
+      },
+      "DestinationCoordinate": {
+        "Row": 2,
+        "Column": 4
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 4,
+        "Column": 3
+      },
+      "DestinationCoordinate": {
+        "Row": 2,
+        "Column": 3
+      }
+    },
+    {
+      "SourceCoordinate": {
+        "Row": 4,
+        "Column": 4
+      },
+      "DestinationCoordinate": {
+        "Row": 4,
+        "Column": 2
+      }
+    }
+  ],
+  "AdaptedAPiece": {
+    "Color": 1,
+    "Type": 0
+  },
+  "CurrentColor": 0
+}

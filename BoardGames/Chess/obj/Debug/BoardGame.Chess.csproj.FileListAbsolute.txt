@@ -1,0 +1,1 @@
+C:\Users\Paul\Desktop\BoardGames\Chess\obj\Debug\BoardGame.Chess.csproj.CoreCompileInputs.cache
