@@ -3257,3 +3257,474 @@ StackTrace:    at BoardGames.API.Coordinate.GetInstance(Int32 row, Int32 column)
    at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\BoardGames\BoardGames\Board.cs:line 186
    at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\BoardGames\BoardGames\Board.cs:line 144
 
+26/11/2021 17:00:31
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.CheckersLayout.Clone() in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\CheckersLayout.cs:line 42
+   at BoardGames.API.Context.Clone() in C:\Users\Paul\Desktop\BoardGames\API\Context.cs:line 39
+   at BoardGames.API.Referee.Start(PieceColor color) in C:\Users\Paul\Desktop\BoardGames\API\Referee.cs:line 42
+   at BoardGames.Checkers.CheckersGame.Start() in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\CheckersGame.cs:line 19
+   at BoardGames.GameForm.Play_Checkers_Click(Object sender, EventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\GameForm.cs:line 121
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:36
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:37
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:40
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:41
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:41
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:41
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:09:42
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
+26/11/2021 17:26:07
+Message: The method or operation is not implemented.
+Source: BoardGames.Checkers
+StackTrace:    at BoardGames.Checkers.Man.GetAvailableMoves(Coordinate sourceCoordinate, Context context) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames.Checkers\Man.cs:line 20
+   at BoardGames.Board.HighlightAvailableMoves(Graphics g) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 186
+   at BoardGames.Board.OnPaint(PaintEventArgs e) in C:\Users\Paul\Desktop\test git\BoardGames\BoardGames\Board.cs:line 144
+
