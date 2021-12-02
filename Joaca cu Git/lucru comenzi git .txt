@@ -1,0 +1,743 @@
+Paul@PaulC-PC MINGW64 ~/Desktop/test git
+$ git init
+Initialized empty Git repository in C:/Users/Paul/Desktop/test git/.git/
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        BoardGames/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git branch
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git add .
+warning: LF will be replaced by CRLF in BoardGames/BoardGames/bin/Debug/Exceptions.log.
+The file will have its original line endings in your working directory
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Paul@PaulC-PC.(none)')
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$  git config --global user.email "centeapaul@yahoo.com"
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$  git config --global user.name "paulcentea"
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git commit -m "first commit"
+[master (root-commit) c6ee313] first commit
+ 324 files changed, 139569 insertions(+)
+ create mode 100644 BoardGames/.vs/BoardGame/v16/.suo
+ create mode 100644 BoardGames/.vs/BoardGames/v16/.suo
+ create mode 100644 BoardGames/.vs/Chess/v16/.suo
+ create mode 100644 BoardGames/API/ALayout.cs
+ create mode 100644 BoardGames/API/APiece.cs
+ create mode 100644 BoardGames/API/AdaptedAPiece.cs
+ create mode 100644 BoardGames/API/AdaptedContext.cs
+ create mode 100644 BoardGames/API/AdaptedCoordinate.cs
+ create mode 100644 BoardGames/API/AdaptedMove.cs
+ create mode 100644 BoardGames/API/BoardGames.API.csproj
+ create mode 100644 BoardGames/API/Context.cs
+ create mode 100644 BoardGames/API/ContextChangedEventArgs.cs
+ create mode 100644 BoardGames/API/Coordinate.cs
+ create mode 100644 BoardGames/API/DependencyContainer.cs
+ create mode 100644 BoardGames/API/Game.cs
+ create mode 100644 BoardGames/API/GameLoader.cs
+ create mode 100644 BoardGames/API/GameSaver.cs
+ create mode 100644 BoardGames/API/IBoard.cs
+ create mode 100644 BoardGames/API/IPieceFactory.cs
+ create mode 100644 BoardGames/API/IPieceType.cs
+ create mode 100644 BoardGames/API/ITurnChanger.cs
+ create mode 100644 BoardGames/API/Logger.cs
+ create mode 100644 BoardGames/API/Move.cs
+ create mode 100644 BoardGames/API/MoveEventArgs.cs
+ create mode 100644 BoardGames/API/MovePlayer.cs
+ create mode 100644 BoardGames/API/PieceColor.cs
+ create mode 100644 BoardGames/API/Properties/AssemblyInfo.cs
+ create mode 100644 BoardGames/API/Referee.cs
+ create mode 100644 BoardGames/API/bin/Debug/API.dll
+ create mode 100644 BoardGames/API/bin/Debug/API.pdb
+ create mode 100644 BoardGames/API/bin/Debug/BoardGames.API.dll
+ create mode 100644 BoardGames/API/bin/Debug/BoardGames.API.pdb
+ create mode 100644 BoardGames/API/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/API/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/API/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/API/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/API/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 BoardGames/API/bin/Debug/Unity.Abstractions.dll
+ create mode 100644 BoardGames/API/bin/Debug/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/API/bin/Debug/Unity.Container.dll
+ create mode 100644 BoardGames/API/bin/Debug/Unity.Container.pdb
+ create mode 100644 BoardGames/API/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/API/obj/Debug/API.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/API/obj/Debug/API.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/API/obj/Debug/API.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/API/obj/Debug/API.dll
+ create mode 100644 BoardGames/API/obj/Debug/API.pdb
+ create mode 100644 BoardGames/API/obj/Debug/BoardGames.API.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/API/obj/Debug/BoardGames.API.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/API/obj/Debug/BoardGames.API.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/API/obj/Debug/BoardGames.API.dll
+ create mode 100644 BoardGames/API/obj/Debug/BoardGames.API.pdb
+ create mode 100644 BoardGames/API/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/API/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/API/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/API/packages.config
+ create mode 100644 BoardGames/BoardGames.sln
+ create mode 100644 BoardGames/BoardGames/App.config
+ create mode 100644 BoardGames/BoardGames/Board.cs
+ create mode 100644 BoardGames/BoardGames/BoardGames.UI.csproj
+ create mode 100644 BoardGames/BoardGames/BoardGames.UI.csproj.user
+ create mode 100644 BoardGames/BoardGames/GameForm.Designer.cs
+ create mode 100644 BoardGames/BoardGames/GameForm.cs
+ create mode 100644 BoardGames/BoardGames/GameForm.resx
+ create mode 100644 BoardGames/BoardGames/Program.cs
+ create mode 100644 BoardGames/BoardGames/Properties/AssemblyInfo.cs
+ create mode 100644 BoardGames/BoardGames/Properties/Resources.Designer.cs
+ create mode 100644 BoardGames/BoardGames/Properties/Resources.resx
+ create mode 100644 BoardGames/BoardGames/Properties/Settings.Designer.cs
+ create mode 100644 BoardGames/BoardGames/Properties/Settings.settings
+ create mode 100644 BoardGames/BoardGames/bin/Debug/API.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/API.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.API.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.API.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.Chess.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.Chess.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.Reversi.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.Reversi.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.UI.exe
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.UI.exe.config
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.UI.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.exe
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.exe.config
+ create mode 100644 BoardGames/BoardGames/bin/Debug/BoardGames.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Chess.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Exceptions.log
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Reversi.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Reversi.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/BoardGames/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Unity.Abstractions.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Unity.Container.dll
+ create mode 100644 BoardGames/BoardGames/bin/Debug/Unity.Container.pdb
+ create mode 100644 BoardGames/BoardGames/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.GameForm.resources
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.Properties.Resources.resources
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.Properties.Resources.resources
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.csproj.GenerateResource.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.exe
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.UI.pdb
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.csproj.CopyComplete
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.csproj.GenerateResource.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.exe
+ create mode 100644 BoardGames/BoardGames/obj/Debug/BoardGames.pdb
+ create mode 100644 BoardGames/BoardGames/obj/Debug/Chess.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/BoardGames/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 BoardGames/BoardGames/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/BoardGames/obj/Release/BoardGames.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/BoardGames/obj/Release/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 BoardGames/BoardGames/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/BoardGames/obj/Release/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 BoardGames/BoardGames/obj/Release/build.force
+ create mode 100644 BoardGames/BoardGames/packages.config
+ create mode 100644 BoardGames/BoardGames/saves/Game current context.json
+ create mode 100644 BoardGames/BoardGames/saves/Game current context2.json
+ create mode 100644 BoardGames/BoardGames/saves/ceva.chess
+ create mode 100644 BoardGames/BoardGames/saves/da.chess
+ create mode 100644 BoardGames/BoardGames/saves/da.chess.json
+ create mode 100644 BoardGames/BoardGames/saves/dada.reversi
+ create mode 100644 BoardGames/BoardGames/saves/pauls.chess
+ create mode 100644 BoardGames/BoardGames/saves/pvp.chess
+ create mode 100644 BoardGames/BoardGames/saves/radu..json
+ create mode 100644 BoardGames/BoardGames/saves/test.chess
+ create mode 100644 BoardGames/BoardGames/saves/try.reversi
+ create mode 100644 BoardGames/Chess/AChessPiece.cs
+ create mode 100644 BoardGames/Chess/Bishop.cs
+ create mode 100644 BoardGames/Chess/BoardGames.Chess.csproj
+ create mode 100644 BoardGames/Chess/ChessGame.cs
+ create mode 100644 BoardGames/Chess/ChessLayout.cs
+ create mode 100644 BoardGames/Chess/ChessPieceFactory.cs
+ create mode 100644 BoardGames/Chess/ChessPieceType.cs
+ create mode 100644 BoardGames/Chess/ChessTurnChanger.cs
+ create mode 100644 BoardGames/Chess/King.cs
+ create mode 100644 BoardGames/Chess/Knight.cs
+ create mode 100644 BoardGames/Chess/Pawn.cs
+ create mode 100644 BoardGames/Chess/Properties/AssemblyInfo.cs
+ create mode 100644 BoardGames/Chess/Queen.cs
+ create mode 100644 BoardGames/Chess/Resources/ChessPiecesArray.png
+ create mode 100644 BoardGames/Chess/Rook.cs
+ create mode 100644 BoardGames/Chess/bin/Debug/API.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/API.pdb
+ create mode 100644 BoardGames/Chess/bin/Debug/BoardGames.API.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/BoardGames.API.pdb
+ create mode 100644 BoardGames/Chess/bin/Debug/BoardGames.Chess.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/BoardGames.Chess.pdb
+ create mode 100644 BoardGames/Chess/bin/Debug/Chess.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/Chess.pdb
+ create mode 100644 BoardGames/Chess/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/Chess/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/Chess/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/Unity.Abstractions.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/Chess/bin/Debug/Unity.Container.dll
+ create mode 100644 BoardGames/Chess/bin/Debug/Unity.Container.pdb
+ create mode 100644 BoardGames/Chess/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGame.Chess.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGame.Chess.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.csproj.CopyComplete
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.dll
+ create mode 100644 BoardGames/Chess/obj/Debug/BoardGames.Chess.pdb
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.csproj.CopyComplete
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.dll
+ create mode 100644 BoardGames/Chess/obj/Debug/Chess.pdb
+ create mode 100644 BoardGames/Chess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/Chess/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/Chess/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/Chess/obj/Release/build.force
+ create mode 100644 BoardGames/Reversi/AReversiPiece.cs
+ create mode 100644 BoardGames/Reversi/BoardGames.Reversi.csproj
+ create mode 100644 BoardGames/Reversi/Disk.cs
+ create mode 100644 BoardGames/Reversi/Properties/AssemblyInfo.cs
+ create mode 100644 BoardGames/Reversi/Resources/ReversiPieces.png
+ create mode 100644 BoardGames/Reversi/ReversiGame.cs
+ create mode 100644 BoardGames/Reversi/ReversiLayout.cs
+ create mode 100644 BoardGames/Reversi/ReversiPieceFactory.cs
+ create mode 100644 BoardGames/Reversi/ReversiPieceType.cs
+ create mode 100644 BoardGames/Reversi/ReversiTurnChanger.cs
+ create mode 100644 BoardGames/Reversi/bin/Debug/API.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/API.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.API.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.API.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.Chess.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.Chess.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.Reversi.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/BoardGames.Reversi.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/Chess.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Chess.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/Reversi/bin/Debug/Reversi.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Reversi.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/Reversi/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Unity.Abstractions.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/Reversi/bin/Debug/Unity.Container.dll
+ create mode 100644 BoardGames/Reversi/bin/Debug/Unity.Container.pdb
+ create mode 100644 BoardGames/Reversi/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 BoardGames/Reversi/obj/Debug/BoardGames.Reversi.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/Reversi/obj/Debug/BoardGames.Reversi.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/Reversi/obj/Debug/BoardGames.Reversi.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/Reversi/obj/Debug/BoardGames.Reversi.dll
+ create mode 100644 BoardGames/Reversi/obj/Debug/BoardGames.Reversi.pdb
+ create mode 100644 BoardGames/Reversi/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BoardGames/Reversi/obj/Debug/Reversi.csproj.AssemblyReference.cache
+ create mode 100644 BoardGames/Reversi/obj/Debug/Reversi.csproj.CoreCompileInputs.cache
+ create mode 100644 BoardGames/Reversi/obj/Debug/Reversi.csproj.FileListAbsolute.txt
+ create mode 100644 BoardGames/Reversi/obj/Debug/Reversi.dll
+ create mode 100644 BoardGames/Reversi/obj/Debug/Reversi.pdb
+ create mode 100644 BoardGames/Reversi/packages.config
+ create mode 100644 BoardGames/SavedGames/1.reversi
+ create mode 100644 BoardGames/SavedGames/Game current context.json
+ create mode 100644 BoardGames/SavedGames/Game current context2.json
+ create mode 100644 BoardGames/SavedGames/alt test.chess
+ create mode 100644 BoardGames/SavedGames/alt test.reversi
+ create mode 100644 BoardGames/SavedGames/ceva.chess
+ create mode 100644 BoardGames/SavedGames/da.chess
+ create mode 100644 BoardGames/SavedGames/da.chess.json
+ create mode 100644 BoardGames/SavedGames/dada.reversi
+ create mode 100644 BoardGames/SavedGames/initial.chess
+ create mode 100644 BoardGames/SavedGames/pauls.chess
+ create mode 100644 BoardGames/SavedGames/pvp.chess
+ create mode 100644 BoardGames/SavedGames/radu..json
+ create mode 100644 BoardGames/SavedGames/radu.reversi
+ create mode 100644 BoardGames/SavedGames/test.chess
+ create mode 100644 BoardGames/SavedGames/test.reversi
+ create mode 100644 BoardGames/SavedGames/try.reversi
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/.signature.p7s
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/LICENSE.md
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/Newtonsoft.Json.13.0.1.nupkg
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net20/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net20/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.dll
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.xml
+ create mode 100644 BoardGames/packages/Newtonsoft.Json.13.0.1/packageIcon.png
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/.signature.p7s
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/LICENSE.TXT
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/System.Runtime.CompilerServices.Unsafe.4.5.2.nupkg
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/useSharedDesignerContext.txt
+ create mode 100644 BoardGames/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/version.txt
+ create mode 100644 BoardGames/packages/Unity.5.11.10/.signature.p7s
+ create mode 100644 BoardGames/packages/Unity.5.11.10/Unity.5.11.10.nupkg
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net40/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net40/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net40/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net40/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net45/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net45/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net45/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net45/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net46/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net46/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net46/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net46/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net47/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net47/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net47/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net47/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net48/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net48/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net48/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/net48/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp1.0/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp1.0/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp1.0/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp1.0/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp2.0/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp2.0/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp2.0/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp2.0/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp3.0/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp3.0/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp3.0/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netcoreapp3.0/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard1.0/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard1.0/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard1.0/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard1.0/Unity.Container.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard2.0/Unity.Abstractions.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard2.0/Unity.Abstractions.pdb
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard2.0/Unity.Container.dll
+ create mode 100644 BoardGames/packages/Unity.5.11.10/lib/netstandard2.0/Unity.Container.pdb
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git add .
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git log
+commit c6ee31395cb2efce740eec51c9c3af080b290648 (HEAD -> master)
+Author: paulcentea <centeapaul@yahoo.com>
+Date:   Fri Nov 26 09:07:21 2021 +0200
+
+    first commit
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git branch paul_centea_branch
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git push -u origin paul_centea_branch
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (master)
+$ git branch -M main
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git remote add origin https://github.com/paulcentea/chess-and-reversi.git
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git -u origin main
+unknown option: -u
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git remote add origin https://github.com/paulcentea/chess-and-reversi.git
+error: remote origin already exists.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git -u origin main
+unknown option: -u
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git branch -M main
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git push -u origin main
+Enumerating objects: 289, done.
+Counting objects: 100% (289/289), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (262/262), done.
+Writing objects: 100% (289/289), 5.97 MiB | 4.91 MiB/s, done.
+Total 289 (delta 120), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (120/120), done.
+To https://github.com/paulcentea/chess-and-reversi.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git branch paulcentea-branch
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (main)
+$ git checkout paulcentea-branch
+Switched to branch 'paulcentea-branch'
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ mkdir PaulCentea
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ cd PaulCentea
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ echo Testare > test.txt
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ type test.txt
+bash: type: test.txt: not found
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ notepad test.txt
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git status
+On branch paulcentea-branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ cd ..
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ git status
+On branch paulcentea-branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PaulCentea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ git add .
+warning: LF will be replaced by CRLF in PaulCentea/test.txt.
+The file will have its original line endings in your working directory
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ git commit -m "new branch"
+[paulcentea-branch 58b6a2e] new branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 PaulCentea/test.txt
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 325 bytes | 162.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'paulcentea-branch' on GitHub by visiting:
+remote:      https://github.com/paulcentea/chess-and-reversi/pull/new/paulcentea-branch
+remote:
+To https://github.com/paulcentea/chess-and-reversi.git
+ * [new branch]      paulcentea-branch -> paulcentea-branch
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git (paulcentea-branch)
+$ cd PaulCentea
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ notepad test.txt
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git status
+On branch paulcentea-branch
+Your branch is up to date with 'origin/paulcentea-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git add test.txt
+warning: LF will be replaced by CRLF in PaulCentea/test.txt.
+The file will have its original line endings in your working directory
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git commit -m "modificare fisier test.txt"
+[paulcentea-branch 98c77d9] modificare fisier test.txt
+ 1 file changed, 1 insertion(+)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 347 bytes | 173.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/paulcentea/chess-and-reversi.git
+   58b6a2e..98c77d9  paulcentea-branch -> paulcentea-branch
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git pull origin paulcentea-branch
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (8/8), 1.40 KiB | 35.00 KiB/s, done.
+From https://github.com/paulcentea/chess-and-reversi
+ * branch            paulcentea-branch -> FETCH_HEAD
+   98c77d9..5624270  paulcentea-branch -> origin/paulcentea-branch
+Updating 98c77d9..5624270
+Fast-forward
+ PaulCentea/test.txt | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Everything up-to-date
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git status
+On branch paulcentea-branch
+Your branch is up to date with 'origin/paulcentea-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git add test.txt
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git commit -m "conflict"
+[paulcentea-branch dec823a] conflict
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 342 bytes | 171.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/paulcentea/chess-and-reversi.git
+   5624270..dec823a  paulcentea-branch -> paulcentea-branch
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git add .
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git commit -m "conflict second try"
+[paulcentea-branch d6f7413] conflict second try
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 355 bytes | 177.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/paulcentea/chess-and-reversi.git
+   dec823a..d6f7413  paulcentea-branch -> paulcentea-branch
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git pull origin paulcentea-branch
+From https://github.com/paulcentea/chess-and-reversi
+ * branch            paulcentea-branch -> FETCH_HEAD
+Already up to date.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git pull origin paulcentea-branch
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 739 bytes | 35.00 KiB/s, done.
+From https://github.com/paulcentea/chess-and-reversi
+ * branch            paulcentea-branch -> FETCH_HEAD
+   d6f7413..a247b31  paulcentea-branch -> origin/paulcentea-branch
+error: Your local changes to the following files would be overwritten by merge:
+        PaulCentea/test.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Updating d6f7413..a247b31
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git add .
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git commit -m "hope a conflict"
+[paulcentea-branch 027e4a4] hope a conflict
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+To https://github.com/paulcentea/chess-and-reversi.git
+ ! [rejected]        paulcentea-branch -> paulcentea-branch (non-fast-forward)
+error: failed to push some refs to 'https://github.com/paulcentea/chess-and-reversi.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git pull origin paulcentea-branch
+From https://github.com/paulcentea/chess-and-reversi
+ * branch            paulcentea-branch -> FETCH_HEAD
+Auto-merging PaulCentea/test.txt
+CONFLICT (content): Merge conflict in PaulCentea/test.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch|MERGING)
+$ git add .
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch|MERGING)
+$ git commit -m "conflict solved"
+[paulcentea-branch 9caf0b9] conflict solved
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$ git push -u origin paulcentea-branch
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 685 bytes | 171.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/paulcentea/chess-and-reversi.git
+   a247b31..9caf0b9  paulcentea-branch -> paulcentea-branch
+Branch 'paulcentea-branch' set up to track remote branch 'paulcentea-branch' from 'origin'.
+
+Paul@PaulC-PC MINGW64 ~/Desktop/test git/PaulCentea (paulcentea-branch)
+$

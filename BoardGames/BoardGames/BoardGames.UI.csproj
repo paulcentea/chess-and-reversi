@@ -135,6 +135,10 @@
       <Project>{30d028b6-bdfe-4113-b478-9486568eb3c5}</Project>
       <Name>BoardGames.API</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BoardGames.Checkers\BoardGames.Checkers.csproj">
+      <Project>{a78ebc25-76d0-465c-88c4-b70e12099e84}</Project>
+      <Name>BoardGames.Checkers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chess\BoardGames.Chess.csproj">
       <Project>{acf8faaa-bef2-49ac-b834-18033b8ad052}</Project>
       <Name>BoardGames.Chess</Name>

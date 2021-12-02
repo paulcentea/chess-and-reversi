@@ -1,4 +1,5 @@
 ﻿using BoardGames.API;
+using BoardGames.Checkers;
 using BoardGames.Chess;
 using BoardGames.Reversi;
 using System;
@@ -52,6 +53,14 @@ namespace BoardGames
             DependencyContainer.Container.RegisterType<ITurnChanger, ReversiTurnChanger>();
         }
 
+        public void InitializeCheckersContainer()
+        {
+            DependencyContainer.Container.RegisterType<Game, CheckersGame>();
+            DependencyContainer.Container.RegisterType<ALayout, CheckersLayout>();
+            DependencyContainer.Container.RegisterType<IPieceFactory, CheckersPieceFactory>();
+            DependencyContainer.Container.RegisterType<ITurnChanger, CheckersTurnChanger>();
+        }
+
         private void GameForm_Resize(object sender, EventArgs e)
         {
             try
@@ -100,6 +109,25 @@ namespace BoardGames
             }
         }
 
+        private void Play_Checkers_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                GameType = "checkers";
+
+                InitializeCheckersContainer();
+                InitializeGame();
+
+                Game.Start();
+            }
+            catch (Exception exception)
+            {
+                Logger.Log(exception);
+                MessageBox.Show("Checkers Game couldn't start. We will solve the exception as soon as possible.");
+            }
+
+        }
+
         public void Cleanup()
         {
             this.Controls.Remove(Board);
@@ -140,7 +168,7 @@ namespace BoardGames
                 OpenFileDialog openFileDialog = new OpenFileDialog();
                 openFileDialog.RestoreDirectory = true;
                 openFileDialog.InitialDirectory = ConfigurationManager.AppSettings["DefaultDirectoryPath"];
-                openFileDialog.Filter = "json files (* .chess; * .reversi)|*.chess; *.reversi";
+                openFileDialog.Filter = "json files (* .chess; * .reversi; * .checkers)|*.chess; *.reversi; *.checkers";
                 openFileDialog.FilterIndex = 1;
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -156,6 +184,11 @@ namespace BoardGames
                         {
                             GameType = "reversi";
                             InitializeReversiContainer();
+                        }
+                        else if (openFileDialog.FileName.Substring(openFileDialog.FileName.IndexOf(".") + 1) == "checkers")
+                        {
+                            GameType = "checkers";
+                            InitializeCheckersContainer();
                         }
 
                         InitializeGame();
@@ -178,7 +211,7 @@ namespace BoardGames
                 OpenFileDialog openFileDialog = new OpenFileDialog();
                 openFileDialog.RestoreDirectory = true;
                 openFileDialog.InitialDirectory = ConfigurationManager.AppSettings["DefaultDirectoryPath"];
-                openFileDialog.Filter = "json files (* .chess; * .reversi)|*.chess; *.reversi";
+                openFileDialog.Filter = "json files (* .chess; * .reversi; * .checkers)|*.chess; *.reversi; *.checkers";
                 openFileDialog.FilterIndex = 1;
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -194,6 +227,11 @@ namespace BoardGames
                         {
                             GameType = "reversi";
                             InitializeReversiContainer();
+                        }
+                        else if (openFileDialog.FileName.Substring(openFileDialog.FileName.IndexOf(".") + 1) == "checkers")
+                        {
+                            GameType = "checkers";
+                            InitializeCheckersContainer();
                         }
 
                         InitializeGame();

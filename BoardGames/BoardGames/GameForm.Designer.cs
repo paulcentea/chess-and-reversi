@@ -39,6 +39,7 @@ namespace BoardGames
             this.Replay = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.Exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.Play_Checkers = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,57 +71,65 @@ namespace BoardGames
             // 
             this.Play.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Play_Chess,
-            this.Play_Reversi});
+            this.Play_Reversi,
+            this.Play_Checkers});
             this.Play.Name = "Play";
-            this.Play.Size = new System.Drawing.Size(109, 22);
+            this.Play.Size = new System.Drawing.Size(180, 22);
             this.Play.Text = "Play";
             // 
             // Play_Chess
             // 
             this.Play_Chess.Name = "Play_Chess";
-            this.Play_Chess.Size = new System.Drawing.Size(111, 22);
+            this.Play_Chess.Size = new System.Drawing.Size(180, 22);
             this.Play_Chess.Text = "Chess";
             this.Play_Chess.Click += new System.EventHandler(this.Play_Chess_Click);
             // 
             // Play_Reversi
             // 
             this.Play_Reversi.Name = "Play_Reversi";
-            this.Play_Reversi.Size = new System.Drawing.Size(111, 22);
+            this.Play_Reversi.Size = new System.Drawing.Size(180, 22);
             this.Play_Reversi.Text = "Reversi";
             this.Play_Reversi.Click += new System.EventHandler(this.Play_Reversi_Click);
             // 
             // Save
             // 
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(109, 22);
+            this.Save.Size = new System.Drawing.Size(180, 22);
             this.Save.Text = "&Save";
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Load
             // 
             this.Load.Name = "Load";
-            this.Load.Size = new System.Drawing.Size(109, 22);
+            this.Load.Size = new System.Drawing.Size(180, 22);
             this.Load.Text = "&Load";
             this.Load.Click += new System.EventHandler(this.Load_Click);
             // 
             // Replay
             // 
             this.Replay.Name = "Replay";
-            this.Replay.Size = new System.Drawing.Size(109, 22);
+            this.Replay.Size = new System.Drawing.Size(180, 22);
             this.Replay.Text = "&Replay";
             this.Replay.Click += new System.EventHandler(this.Replay_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(106, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // Exit
             // 
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(109, 22);
+            this.Exit.Size = new System.Drawing.Size(180, 22);
             this.Exit.Text = "E&xit";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // Play_Checkers
+            // 
+            this.Play_Checkers.Name = "Play_Checkers";
+            this.Play_Checkers.Size = new System.Drawing.Size(180, 22);
+            this.Play_Checkers.Text = "Checkers";
+            this.Play_Checkers.Click += new System.EventHandler(this.Play_Checkers_Click);
             // 
             // GameForm
             // 
@@ -151,6 +160,7 @@ namespace BoardGames
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem Play_Chess;
         private System.Windows.Forms.ToolStripMenuItem Play_Reversi;
+        private System.Windows.Forms.ToolStripMenuItem Play_Checkers;
     }
 }
 
